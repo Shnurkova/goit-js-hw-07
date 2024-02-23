@@ -18,3 +18,8 @@ ul, li  {
   list-style-type: none;
 }
 
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
