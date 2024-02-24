@@ -20,4 +20,5 @@ const form = document.querySelector(".login-form");
     event.currentTarget.reset();
 }  
 
+// add styles 
 

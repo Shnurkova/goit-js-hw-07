@@ -27,3 +27,4 @@ images.forEach(function(image) {
   liEl.appendChild(imgEl);
   ulEl.appendChild(liEl);
 });
+

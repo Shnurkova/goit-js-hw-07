@@ -10,6 +10,8 @@ titles.forEach(function (title) {
     console.log("Elements: " + categoriesNames.length );
 })
 
+// закінчити стилі
+
 
 
 

@@ -14,3 +14,5 @@ function handleInput(event) {
         spanName.textContent = name;
     }
 }
+
+// add styles
