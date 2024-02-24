@@ -6,11 +6,11 @@ userName.addEventListener("input", handleInput)
 function handleInput(event) {
     console.log(event);
 
-    const name = event.currentTarget.value;
+    const name = event.currentTarget.value.trim();
 
-    if (event.currentTarget.value.trim() === "") {
-        return "Anonymous"
+    if (name === "" || name === " ") {
+        spanName.textContent = "Anonymous";
     } else {
-        spanName.textContent(`${name}`);
+        spanName.textContent = name;
     }
 }
