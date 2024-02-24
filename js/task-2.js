@@ -21,7 +21,7 @@ images.forEach(function(image) {
   const imgEl = document.createElement("img");
   imgEl.src = image.url;
   imgEl.alt = image.alt;
-  imgEl.width = "400";
+  imgEl.width = "360";
   imgEl.height = "300";
   imgEl.classList.add("gallery-item-img");
   liEl.appendChild(imgEl);

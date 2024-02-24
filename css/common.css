@@ -18,8 +18,38 @@ ul, li  {
   list-style-type: none;
 }
 
-.gallery {
+/* task 2 */
+.gallery{
   display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
   justify-content: center;
-  gap: 25px;
+  
 }
+
+
+/* /task 2*/
+
+.item{
+  border-radius: 8px;
+  padding: 24px;
+  max-width: 392px;
+  height: 264px;
+  padding: 16px;
+  background: #f6f6fe;
+}
+
+.item > ul {
+  background: transparent;
+}
+
+h2{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin: auto;
+}
+

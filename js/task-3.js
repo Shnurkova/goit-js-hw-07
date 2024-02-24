@@ -11,6 +11,6 @@ function handleInput(event) {
     if (event.currentTarget.value.trim() === "") {
         return "Anonymous"
     } else {
-        spanName.append(`${name}`);
+        spanName.textContent(`${name}`);
     }
 }
