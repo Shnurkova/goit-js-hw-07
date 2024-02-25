@@ -4,8 +4,8 @@ function getRandomHexColor() {
     .padStart(6, 0)}`;
 }
 
-const createBtn = document.querySelector("[data-create]");
-const destroyBtn = document.querySelector("[data-destroy]");
+const createBtn = document.querySelector("[data-create");
+const destroyBtn = document.querySelector("[data-destroy");
 const boxes = document.querySelector("#boxes");
 const input = document.querySelector("input");
 const controls = document.querySelector("#controls");
@@ -22,8 +22,6 @@ function handleClick(event) {
     } else {
         alert('Amount is not correct')
     }
-    
-    event.currentTarget.reset();
 }
 
 destroyBtn.addEventListener("click", () => {
@@ -34,9 +32,9 @@ destroyBtn.addEventListener("click", () => {
  
 function createBoxes(amount) {
     boxes.innerHTML = "";
-    boxSize = 30;
+    let boxSize = 30;
     for (let i = 1; i <= amount; i += 1) {
-    newDiv = `<div style="width: ${boxSize}px; height: ${boxSize}px; background: ${getRandomHexColor()}"></div>`;
+    let newDiv = `<div style="width: ${boxSize}px; height: ${boxSize}px; background: ${getRandomHexColor()}"></div>`;
     boxes.insertAdjacentHTML("beforeend", newDiv);
     boxSize += 10;
   }
