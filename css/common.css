@@ -151,12 +151,42 @@ h2 {
 #controls > input{
   border: 1px solid #808080;
   border-radius: 8px;
+  padding-left: 20px;
+  width: 130px;
+  height: 40px;
+}
+
+[data-create]{
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #4e75ff;
+  color: #fafafa;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  border: none;
+}
+
+[data-destroy]{
+  border-radius: 8px;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+    background: #ff4e4e;;
+    color: #fafafa;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    border: none;
 }
 
 #boxes{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
   border-radius: 8px;
   padding: 32px;
-  width: 486px;
+  min-width: 486px;
   height: 104px;
   background: #f6f6fe;
 }
