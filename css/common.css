@@ -46,13 +46,6 @@ h2 {
   color: #2e2f42;
   margin: auto;
 }
-
-/* li{
-  border: 1px solid #808080;
-  border-radius: 4px;
-  width: 360px;
-  height: 40px;
-} */
 /* /task 1 */
 
 
@@ -65,5 +58,59 @@ h2 {
 }
 /* /task 2*/
 
+/* task 3 */
+#name-input{
+  width: 360px;
+  height: 40px;
+  border: solid #2e2f42;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+/* /task 3 */
 
+/* task 4 */
+.login-form{
+  display: block
+}
+
+.login-form > label{
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+  
+}
+
+.login-form > label > input {
+  display: block;
+  width: 360px;
+  height: 40px;
+  border: solid #808080;
+  border-radius: 8px;
+}
+
+.login-form > button {
+  color:#fafafa;
+  margin-top: 16px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background: #4e75ff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  display: block;
+  border: none;
+}
+
+/* /task 4 */
 
