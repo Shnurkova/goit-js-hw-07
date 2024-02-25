@@ -13,4 +13,4 @@ function changeColor(){
     colorSpan.textContent = getRandomHexColor();
 }
 
-changeColorBtn.addEventListener("click", changeColor());
+changeColorBtn.addEventListener("click", changeColor);
