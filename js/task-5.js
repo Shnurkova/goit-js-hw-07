@@ -6,11 +6,13 @@ function getRandomHexColor() {
 
 const changeColorBtn = document.querySelector(".change-color");
 
-function changeColor(){
+function changeColor() {
     const body = document.querySelector("body");
-    body.style = `background-color: ${getRandomHexColor()}`;
     const colorSpan = document.querySelector(".color");
-    colorSpan.textContent = getRandomHexColor();
+    const color = getRandomHexColor(); // Зберегти значення кольору в змінній
+    body.style.backgroundColor = color; // Встановити колір тла
+    colorSpan.textContent = color; // Встановити текстовий вміст colorSpan
 }
 
 changeColorBtn.addEventListener("click", changeColor);
+
